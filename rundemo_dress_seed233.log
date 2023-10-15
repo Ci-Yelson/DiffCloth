@@ -1,0 +1,479 @@
+OMP_NUM_THREADS=8
+Eigen threads: 8
+OpenMP num_threads = 8
+==========================
+Creating system for demodemo_wearhatFinished loading obj file /home/yelson/No.Graphics/_Refs/DiffCloth/src/assets/meshes/scene/arrow1.obj: vertex 42 triangles: 80
+Finished loading obj file /home/yelson/No.Graphics/_Refs/DiffCloth/src/assets/meshes/scene/arrow2.obj: vertex 258 triangles: 512
+Finished loading obj file /home/yelson/No.Graphics/_Refs/DiffCloth/src/assets/meshes/scene/arrow2.obj: vertex 258 triangles: 512
+Finished loading obj file /home/yelson/No.Graphics/_Refs/DiffCloth/src/assets/meshes/scene/clip.obj: vertex 158 triangles: 600
+Finished loading obj file /home/yelson/No.Graphics/_Refs/DiffCloth/src/assets/meshes/remeshed/agenthat2-579-rotated.obj: vertex 579 triangles: 1099
+orientation front: nothing
+Bounding box min:(-28.902,0.767,-35.022) max:(27.628,38.283,35.052)
+394, 32, 
+precompute matrices + prefactorization... density is: 0.224 SceneConfigtimestep is :1/100 timeStepIs:0.010 : stiffness is:(1.00,10000.00,1200.00,120.00)
+precompute matrices + prefactorization...
+stretching force after initialization: 0.00000
+Finished loading obj file /home/yelson/No.Graphics/_Refs/DiffCloth/src/assets/meshes/remeshed/dress-handsup-drape.obj: vertex 3634 triangles: 7026
+orientation front: nothing
+Bounding box min:(11.842,26.677,-9.834) max:(35.408,51.120,11.576)
+WARNING: MESH TOPOLOGY: angle between point 38-37-40 is 7.84 degree
+WARNING: MESH TOPOLOGY: angle between point 96-98-275 is 18.18 degree
+1335, 1336, 1334, 1360, 1339, 1347, 1345, 1342, 1349, 1351, 1352, 3604, 1145, 1150, 1137, 1142, 1143, 1285, 3496, 3497, 3501, 1152, 1153, 3499, 3498, 3500, 3559, 1146, 1333, 1355, 1350, 
+precompute matrices + prefactorization... density is: 0.300 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,0.30)
+precompute matrices + prefactorization...
+stretching force after initialization: 0.00000
+Dress loop points:
+3,4,5,6,7,8,12,13,14,15,16,17,21,22,23,24,25,26,28,29,30,31,32,33,34,36,37,38,39,40,41,42,44,45,46,47,48,49,50,51,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,77,78,79,80,81,82,83,85,86,87,88,96,98,100,101,102,103,104,105,106,107,108,109,110,112,113,114,115,116,117,118,119,120,121,122,123,125,126,127,128,129,131,133,134,135,136,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,156,157,158,159,160,161,162,163,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,185,187,188,189,190,196,197,198,199,200,201,202,203,204,210,211,212,213,214,219,220,221,222,223,224,225,226,227,228,229,230,233,234,236,237,240,241,242,243,244,245,246,247,248,249,250,251,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,272,273,274,275,276,277,278,279,280,281,284,285,286,287,288,289,290,291,297,298,299,300,303,313,314,315,317,318,320,321,322,323,339,823,824,1156,1312,1362,1363,1364,1368,1369,1371,1372,1373,1374,1375,1376,1377,1378,1379,1380,1381,1382,1383,1384,1388,1389,1390,1394,1395,1396,1397,1398,1399,1402,1403,1405,1406,1409,1410,1411,1415,1417,1418,1419,1420,1423,1424,1425,1426,1427,1428,1431,1433,1434,1435,1436,1437,1438,1439,1444,1449,1450,1451,1452,1453,1455,1456,1460,1461,1462,1463,1464,1465,1466,1467,1468,1469,1470,1473,1475,1476,1479,1480,1482,1483,1484,1485,1486,1487,1488,1489,1490,1491,1492,1497,1498,1499,1502,1503,1504,1505,1506,1507,1508,1510,1513,1514,1519,1520,1521,1522,1524,1526,1527,1528,1529,1530,1532,1533,1536,1539,1540,1541,1558,1559,1560,1561,1562,1563,1564,1565,1572,1580,1581,1582,1583,1584,1585,1586,1587,1593,1594,1597,1598,1605,1608,1609,1644,1705,1706,1707,1741,1742,1743,1753,1755,1758,1763,1764,1765,1774,1817,1962,1963,1964,1965,1966,1969,1970,1971,1972,1974,1976,1990,1991,1992,1998,2070,2088,2090,2091,2230,2435,2436,2439,2591,2592,2611,3492,3502,3503,3504,3505,3506,3507,3519,3523,3549,3550,3560,3570,3571,3577,3602,3618,3624,
+Dress loop points:
+3,4,5,6,7,8,12,13,14,15,16,17,21,22,23,24,25,26,28,29,30,31,32,33,34,36,37,38,39,40,41,42,44,45,46,47,48,49,50,51,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,77,78,79,80,81,82,83,85,86,87,88,96,98,100,101,102,103,104,105,106,107,108,109,110,112,113,114,115,116,117,118,119,120,121,122,123,125,126,127,128,129,131,133,134,135,136,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,156,157,158,159,160,161,162,163,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,185,187,188,189,190,196,197,198,199,200,201,202,203,204,210,211,212,213,214,219,220,221,222,223,224,225,226,227,228,229,230,233,234,236,237,240,241,242,243,244,245,246,247,248,249,250,251,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,272,273,274,275,276,277,278,279,280,281,284,285,286,287,288,289,290,291,297,298,299,300,303,313,314,315,317,318,320,321,322,323,339,823,824,1156,1312,1362,1363,1364,1368,1369,1371,1372,1373,1374,1375,1376,1377,1378,1379,1380,1381,1382,1383,1384,1388,1389,1390,1394,1395,1396,1397,1398,1399,1402,1403,1405,1406,1409,1410,1411,1415,1417,1418,1419,1420,1423,1424,1425,1426,1427,1428,1431,1433,1434,1435,1436,1437,1438,1439,1444,1449,1450,1451,1452,1453,1455,1456,1460,1461,1462,1463,1464,1465,1466,1467,1468,1469,1470,1473,1475,1476,1479,1480,1482,1483,1484,1485,1486,1487,1488,1489,1490,1491,1492,1497,1498,1499,1502,1503,1504,1505,1506,1507,1508,1510,1513,1514,1519,1520,1521,1522,1524,1526,1527,1528,1529,1530,1532,1533,1536,1539,1540,1541,1558,1559,1560,1561,1562,1563,1564,1565,1572,1580,1581,1582,1583,1584,1585,1586,1587,1593,1594,1597,1598,1605,1608,1609,1644,1705,1706,1707,1741,1742,1743,1753,1755,1758,1763,1764,1765,1774,1817,1962,1963,1964,1965,1966,1969,1970,1971,1972,1974,1976,1990,1991,1992,1998,2070,2088,2090,2091,2230,2435,2436,2439,2591,2592,2611,3492,3502,3503,3504,3505,3506,3507,3519,3523,3549,3550,3560,3570,3571,3577,3602,3618,3624,
+Parameter bounds are:
+Lower:1e-07  0.01
+Upper:5 1
+Srand seed is : 233
+seed = 2119191493
+Parameter from randseed 2119191493 is valid, proceed...
+  param lowerBound:1e-07  0.01
+  param upperBound:5 1
+ starts with param: 1.14318 0.504842
+lbfgs param lowerBound:1e-07  0.01
+lbfgs param upperBound:5 1
+lbfgs starts with param: 1.14318 0.504842
+=========Evaluation Iter 1 ========
+Total Optimization Iter:0
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.143180
+density:0.504842
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.505 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000001000 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..No schemas installed
+/home/yelson/No.Graphics/_Refs/DiffCloth
+/home/yelson/No.Graphics/_Refs/DiffCloth
+finished...
+4.5 (Core Profile) Mesa 23.0.4-0ubuntu1~22.04.1
+loading shader from clothVS clothFS...loading shader from simplebufferV simplebufferF...Optimization progress is saved to:dressTwirl-0.30000-randseed-233-20231013_194454-forwardThresh--10.0
+writing config to file.../home/yelson/No.Graphics/_Refs/DiffCloth/output/dressTwirl-0.30000-randseed-233-20231013_194454-forwardThresh--10.0-LBFGS/scene-config.txt.txt
+file not exist
+Loss is: 1.75575955
+========================= Entering line search with startstep 0.4952 =========================
+=========Evaluation Iter 2 ========
+Total Optimization Iter:1
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.152001
+density:1.000000
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 1.000 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.15)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 2.70888593
+=========Evaluation Iter 3 ========
+Total Optimization Iter:2
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144729
+density:0.591831
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.592 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72897784
+linesearch with step 0.0870 gives Loss: 1.7290
+========================= Entering line search with startstep 1.0000 =========================
+=========Evaluation Iter 4 ========
+Total Optimization Iter:3
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.146218
+density:0.654944
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.655 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.15)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.76416575
+=========Evaluation Iter 5 ========
+Total Optimization Iter:4
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144922
+density:0.600001
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.600 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.73123722
+linesearch with step 0.1294 gives Loss: 1.7312
+=========Evaluation Iter 6 ========
+Total Optimization Iter:5
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144757
+density:0.592993
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72726886
+linesearch with step 0.0184 gives Loss: 1.7273
+=========Evaluation Iter 7 ========
+Total Optimization Iter:6
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144787
+density:0.594272
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.594 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.73050704
+linesearch with step 0.0387 gives Loss: 1.7305
+=========Evaluation Iter 8 ========
+Total Optimization Iter:7
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144758
+density:0.593039
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72701847
+linesearch with step 0.0191 gives Loss: 1.7270
+=========Evaluation Iter 9 ========
+Total Optimization Iter:8
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144759
+density:0.593090  
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72896416
+linesearch with step 0.0199 gives Loss: 1.7290
+=========Evaluation Iter 10 ========
+Total Optimization Iter:9
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144758
+density:0.593039
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72707323
+linesearch with step 0.0191 gives Loss: 1.7271
+=========Evaluation Iter 11 ========
+Total Optimization Iter:10
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144758
+density:0.593039
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72701846
+linesearch with step 0.0191 gives Loss: 1.7270
+=========Evaluation Iter 12 ========
+Total Optimization Iter:11
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144758
+density:0.593039
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72701846
+linesearch with step 0.0191 gives Loss: 1.7270
+=========Evaluation Iter 13 ========
+Total Optimization Iter:12
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144758
+density:0.593039
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72701846
+linesearch with step 0.0191 gives Loss: 1.7270
+=========Evaluation Iter 14 ========
+Total Optimization Iter:13
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144758
+density:0.593039
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72701846
+linesearch with step 0.0191 gives Loss: 1.7270
+=========Evaluation Iter 15 ========
+Total Optimization Iter:14
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144758
+density:0.593039
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72701846
+linesearch with step 0.0191 gives Loss: 1.7270
+=========Evaluation Iter 16 ========
+Total Optimization Iter:15
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144758
+density:0.593039
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72701846
+linesearch with step 0.0191 gives Loss: 1.7270
+=========Evaluation Iter 17 ========
+Total Optimization Iter:16
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144758
+density:0.593039
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72701846
+linesearch with step 0.0191 gives Loss: 1.7270
+=========Evaluation Iter 18 ========
+Total Optimization Iter:17
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144758
+density:0.593039
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72701846
+linesearch with step 0.0191 gives Loss: 1.7270
+=========Evaluation Iter 19 ========
+Total Optimization Iter:18
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144758
+density:0.593039
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72701846
+linesearch with step 0.0191 gives Loss: 1.7270
+=========Evaluation Iter 20 ========
+Total Optimization Iter:19
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144758
+density:0.593039
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72701846
+linesearch with step 0.0191 gives Loss: 1.7270
+=========Evaluation Iter 21 ========
+Total Optimization Iter:20
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144758
+density:0.593039
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72701846
+linesearch with step 0.0191 gives Loss: 1.7270
+=========Evaluation Iter 22 ========
+Total Optimization Iter:21
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144758
+density:0.593039
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72701846
+linesearch with step 0.0191 gives Loss: 1.7270
+=========Evaluation Iter 23 ========
+Total Optimization Iter:22
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144758
+density:0.593039
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72701846
+linesearch with step 0.0191 gives Loss: 1.7270
+=========Evaluation Iter 24 ========
+Total Optimization Iter:23
+Total parameters: 2
+Total frames: 125
+timestep: 0.0083 / 1/120
+LBFGS param:============Parameter Info:======================
+k_CONSTRAINT_TRIANGLE_BENDING:1.144758
+density:0.593039
+
+[runBackwardTask]...Factorize System Matrix...precompute matrices + prefactorization... density is: 0.593 SceneConfigtimestep is :1/120 timeStepIs:0.008 : stiffness is:(1.00,10000.00,3000.00,1.14)
+precompute matrices + prefactorization...
+forwardConverge set from 0.0000000001 to 0.0000000001
+looping over constraints...finished...
+forward started...0..20..40..60..80..100..120..finished...init
+backward started...120..100..80..60..40..20..finished...
+file not exist
+Loss is: 1.72701846
+linesearch with step 0.0191 gives Loss: 1.7270
+LBFGS terminated early: the line search routine reached the maximum number of iterations
+Exiting program...

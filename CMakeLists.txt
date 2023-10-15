@@ -1,6 +1,15 @@
 cmake_minimum_required(VERSION 3.15)
 project(DiffCloth)
 
+# For clangd
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+# Use ccache
+find_program(CCACHE_PROGRAM ccache)
+if(CCACHE_PROGRAM)
+    set(GLOBAL PROPERTY RULE_LAUNCH_COMPILE "${CCACHE_PROGRAM}")
+    set(GLOBAL PROPERTY RULE_LAUNCH_LINK "${CCACHE_PROGRAM}")
+endif()
+
 if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Release)
 endif()

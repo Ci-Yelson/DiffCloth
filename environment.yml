@@ -1,7 +1,7 @@
 name: diffcloth
 channels:
   - pytorch
-  - defaults
+  - defaults 
 dependencies:
   - _libgcc_mutex=0.1=main
   - blas=1.0=mkl
@@ -65,7 +65,6 @@ dependencies:
     - cycler==0.10.0
     - cython==0.29.23
     - decorator==5.0.7
-    - diffcloth-py==0.0.1
     - flatbuffers==1.12
     - future==0.18.2
     - gast==0.3.3
